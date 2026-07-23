@@ -1,16 +1,79 @@
-# React + Vite
+# TexMate 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern text editor built using the MERN Stack with a clean, responsive UI powered by Tailwind CSS.
 
-Currently, two official plugins are available:
+TexMate is designed to provide a fast, intuitive, and distraction-free writing experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Tech Stack
 
-## React Compiler
+- React.js
+- Vite
+- Tailwind CSS
+- Node.js
+- Express.js
+- MongoDB
+- Zustand (State Management)
+- Git & GitHub
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📂 Project Structure
 
-## Expanding the ESLint configuration
+```text
+src/
+├── assets/
+├── components/
+├── layouts/
+├── pages/
+├── services/
+├── store/
+├── utils/
+├── hooks/
+├── constants/
+├── styles/
+├── App.jsx
+└── main.jsx
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🏗️ System Design Architecture
+
+TexMate follows a modular and scalable architecture.
+
+- Components → Reusable UI
+- Layouts → Application layouts
+- Pages → Screen-level components
+- Services → API communication
+- Store → Global state management
+- Utils → Helper functions
+- Assets → Images, icons, fonts
+
+## ⚙️ Installation
+
+Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+Install dependencies
+
+```bash
+npm install
+```
+
+Start development server
+
+```bash
+npm run dev
+```
+
+## ✨ Future Features
+
+- Authentication
+- Rich Text Editing
+- Dark Mode
+- Export as PDF
+- Search & Replace
+- Cloud Sync
+
+## 👩‍💻 Author
+
+Riya Singh
